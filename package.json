@@ -1,0 +1,35 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/Guns1301/JuliEngliShir",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/JuliEngliShir/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guns1301/JuliEngliShir.git"
+  },
+  "keywords": [],
+  "author": "Volodymyr Shyriaiev <guns1301@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guns1301/JuliEngliShir/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
